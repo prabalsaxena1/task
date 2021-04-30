@@ -1,0 +1,52 @@
+.formComponentOuterDiv{
+    display: flex;
+    background-color: #ededed;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px;
+    justify-content: center;
+}
+.formBody{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+
+}
+input{
+    margin-left: 20px;
+    border: none;
+    background-color:#ededed ;
+    height: 30px;
+    font-size: large;
+}
+input:focus{
+    outline: none;
+}
+
+select{
+    margin-left: 20px;
+    height: 30px;
+    font-size: large;
+}
+button{
+    margin-left: 20px;
+    border:none;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(68, 68, 175);
+    color: white;
+    font-size: 1.5rem;
+}
+button:hover{
+    background-color: darkblue;
+}
+h1{
+    margin-left: 20px;
+}
+.msg{
+    color: red;
+    font-size: small;
+    margin-left: 20px;
+}

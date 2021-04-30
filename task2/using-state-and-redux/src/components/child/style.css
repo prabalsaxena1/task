@@ -1,0 +1,17 @@
+.childDiv{
+    height: 50vh;
+    width: 50vw;
+    box-shadow: 0 0 20px blueviolet;
+    display: grid;
+    place-items: center;
+    border:3px solid blueviolet
+}
+input{
+    border: none;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+input:focus{
+    outline: none;
+}
