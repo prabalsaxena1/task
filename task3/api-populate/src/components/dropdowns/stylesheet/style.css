@@ -1,0 +1,14 @@
+.dropdownDiv{
+    height: 50vh;
+    width: 90vw;
+    box-shadow: 0 0 20px blue;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+select{
+    height: 30px;
+    width: 180px;
+    margin: 30px;
+}
